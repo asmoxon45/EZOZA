@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.photo{
+    background-image:url(./photo_2024-09-23_14-15-40.jpg);
+    background-size: 1600px;
+    height: 800px;
+}
+nav{
+    display: flex;
+    color: white;
+    justify-content:space-around ;
+    font-family: sans-serif;
+    align-content: center;
+    background-repeat: no-repeat;
+}
+ul li p:hover{
+    color: gold;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 30px;
+}
+.photo h1{
+    margin: 20px;
+}
+.text{
+    width: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 170px;
+    font-size: 33px;
+    font-family: sans-serif;
+    align-items: start;
+}
+
+.btn{
+    display: flex;
+    gap: 40px;
+}
+
+.btn button{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn button:nth-child(1):hover{
+    background: goldenrod;
+    color: white;
+}
+
+.btn button:nth-child(2):hover{
+    background: red;
+    color: white;
+}
+
+.main{
+    margin: 100px;
+    font-family: sans-serif;
+}
+
+.main p{
+    width: 450px;
+}
+
+.main button{
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    background:aquamarine;
+    color: white;
+    font-weight: 800px;
+
+}
+
+.main h1{
+    font-size: 45px;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.card.img{
+    border: 2px solid black;
+    padding: 100px;
+    border-radius: 50px ;
+}

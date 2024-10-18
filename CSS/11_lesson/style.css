@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+}
+
+.box{
+    width: 400px;
+    height: 60px;
+    border: 2px solid white;
+    margin-top: 400px;
+    background: white;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 800px;
+    color: green;
+    box-shadow: rgb(22,185,22) 0px 0px 50px 12px;
+    position: relative;
+}
+
+.box::after{
+    content: "";
+    border: 2px solid blue;
+    position: absolute;
+    height: 10px;
+    background: blue;
+    left: 0;
+    top: -5%;
+    width: 20px;
+    transition: 2s;
+}
+
+.box::before{
+    content: "";
+    border: 2px solid red;
+    position: absolute;
+    height: 10px;
+    background: red;
+    right: 0;
+    bottom: -5%;
+    width: 20px;
+    transition: 2s;
+}
+
+.box:hover::after{
+    left: 95%;
+    box-shadow: rgb( 10,10,227) 0px 0px 10px 10px;
+}
+
+.box:hover::before{
+    right: 95%;
+    box-shadow: rgb(236,14,14) 0px 0px 10px 10px;
+}

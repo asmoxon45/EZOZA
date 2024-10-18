@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .our{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 50px;
+ }
+.card1{
+    margin: 100px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background: linear-gradient(to left,blue,red,black);
+}
+.card1:hover{
+    transform: translate(-200px);
+}
+.card2{ 
+    margin: 100px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background: radial-gradient(circle,blue,red,black);
+    
+}
+.card2:hover{
+    transform: translate(300px);
+}
+.card3{
+    transform: scale();
+    margin: 100px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background: rgb(186, 42, 169);
+}
+.card3{
+    transform: scale(1);
+}
+.card4{
+    margin: 100px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background: linear-gradient(40deg,blue,red,black);
+}
+.card4:hover{
+    transform: scaleY(1.9);
+}
+.card5{
+    margin: 100px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background: linear-gradient(150deg,purple,pink,red); 
+}
+.card5:hover{
+    transform: rotate(360deg);
+}
+
+.card6{
+    margin: 100px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background: linear-gradient(to right,blue,red,green);
+}
+.card6:hover{
+    transform: skew(90deg);
+}
+
+.card7{
+    margin: 100px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background: linear-gradient(to bottom,blue,red,g0reen);
+}
+.card7:hover{
+    transform: skewX(90deg);
+}
+    .card8{
+    margin: 100px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background: linear-gradient(to right,blue,rgb(153, 0, 255),rgb(0, 81, 128));
+}
+.card8:hover{
+    transform: translateZ(-220px);
+}
+
+.card9{
+    margin: 100px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background: linear-gradient(blue,rgb(0, 217, 255),rgb(0, 128, 49));
+}
+.card9:hover{
+    transform: rotate3d(250deg);
+}
+
+.card10{
+    margin: 100px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background: linear-gradient(black,blue,green)
+}
+.card10:hover{
+    transform: skewY(100deg);
+}
+
+.card11{
+    margin: 100px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background: linear-gradient(black,blue,green)
+}
+.card11{
+    transform: matrix(100degdeg);
+}
+
+.card12{
+    margin: 100px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background: linear-gradient(rgb(71, 62, 62),rgb(8, 8, 109),rgb(128, 83, 0))
+}
+.card12:hover{
+    transform: translateX(90px);
+}
+
+.home{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    border: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 23px;
+    font-family: sans-serif;
+    background-color: antiquewhite;
+    color: black;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+ul li p{
+    color: black;
+    text-decoration: none;
+}
+.login{
+    align-items: center;
+    width:150px ;
+    height: 30px;
+}
+button:hover{
+    width: 180px;
+    height: 30px;
+    background: rgb(3, 3, 46);
+    color: white;
+}

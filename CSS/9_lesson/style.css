@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background: orange;
+    font-family: sans-serif;
+    align-items: center;
+    color: white;
+    height: 70px;
+    left: 0;
+    right: 0;
+}
+
+nav ul{
+    display:flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul input{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.our{
+    display:flex;
+    flex-wrap: wrap;
+    gap:50px;
+}
+
+
+.our div:nth-child(1):hover{
+    width: 500px;
+    height: 400px ;
+     box-shadow: rgb(92, 90, 90) ;
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 20px;
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    border: 2px solid black;
+    width: 320px;
+    background: pink;
+    color: black;
+}
+.card img{
+    width: 300px;
+    height: 300px;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 40px;
+  
+}
+.btn button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    width: 150px;
+    color: aqua;
+}

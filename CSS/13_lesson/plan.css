@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    background: orange;
+    height: 50px;
+    color: white;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 40px;
+    list-style: none;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+nav ul a{
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+}
+.home{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-family: sans-serif;
+}
+nav ul a:hover{
+    color: black;
+}
+
+
+.card {
+    margin: 70px;
+    border: 1px solid #ccc;  
+    width: 24%; 
+    height: 500px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s; 
+    margin-bottom: 16px;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+
+.card-content {
+    padding: 16px; 
+}
+
+.card-content {
+    padding: 16px;
+    background: white; 
+}
+
+.card-title {
+    text-align: center;
+    margin: 25px; 
+    font-size: 3em; 
+    color: black;
+}
+
+.card-description {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 8px; 
+    color: #666; 
+}
+
+ .vvv{
+    background: orange;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 100px;
+   text-align: center;
+}
+
+.vvv span{
+    font-size: 0.7em;
+    font-weight: 700;
+}
+
+.vvv h2{
+    font-weight: 900;
+    color: white;
+}
+
+.card-content button{
+    width: 180px;
+    height: 50px;
+    background: orange;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.card-content button:hover{
+    background: black;
+    transition: 1s;
+}
+
+.wee{
+    display: flex;
+    background:whitesmoke;
+    gap: 10px;
+    text-align: center;
+    font-size: 1em;
+    color: rgb(77, 72, 72);
+}
+
+

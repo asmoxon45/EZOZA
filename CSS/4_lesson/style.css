@@ -1,0 +1,104 @@
+.liner{
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to right,red,yellow);
+    margin-bottom: 20px;
+}
+
+.radial{
+    width: 200px;
+    height: 100px;
+    background: radial-gradient(circle,blue,green);
+    margin-bottom: 20px;
+}
+
+.multiple{
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to bottom,#ff0000,#00ff00,#0000ff);
+    margin-bottom:20px ;
+}
+
+.full{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.half{
+    width: 200px;
+    height: 100px;
+    background-color:green;
+    opacity: 0.25;
+    margin-bottom: 20px;
+}
+
+.quarter{
+    width: 200px;
+    height: 100px;
+    background-color:blue;
+    opacity: 0.25;
+    margin-bottom: 20px;
+}
+
+.red{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255,0,0);
+    margin-bottom: 20px;
+}
+
+.green{
+    width: 200px;
+    height: 100px;
+    background-color:rgb(0,255,0) ;
+    margin-bottom: 20px;
+}
+
+.blue{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(0,0,255);
+    margin-bottom: 20PX;
+}
+
+.transition{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    transition: background-color 0.25s ease;
+    margin-bottom: 20px;
+
+}
+
+.transition:hover{
+    background-color: yellow;
+}
+
+.opacity{
+    width: 200px;
+    height: 100px;
+    background-color: purple;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.opacity:hover{
+    opacity: 0.3;
+}
+
+.transform{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    transform: scale(1);
+    transition: transform 0.3 ease;
+    margin-bottom: 20px;
+}
+
+.transform:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.photo{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2602318/images/f4.jpg);
+    background-size: 1500px;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+.text{
+    
+    margin-top: 200px;
+    position: absolute;
+    color: white;
+    margin-left: 200px;
+}
+.text h1{
+    transform: translate(100px);
+    font-size: 100px;
+}
+.text h2{
+    font-size:35px ;
+}
+.text p{
+    font-size: 20px;
+}
+.text button{
+    font-size: 25px;
+    height: 40px;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+}
+
+.hover:hover{
+    transform: translate(300px);
+    transition: 2s;
+
+}
+
+.hove:hover{
+    transform: translate(-300px);
+    transition: 2s;
+
+}
+.btn:hover{
+    height: 47  px;
+    background: red;
+}
+
+.karta{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 2px 8px rgb(0,0,0,0.1);
+    width: 300px;
+}
+.karta h2{
+    margin: 0 0 8px;
+    text-align: center;
+}
+
+.karta p{
+    color: #555;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button{
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.bbb{
+    width: 30px;
+    height: 20px;
+    background: blue;
+    color: white;
+    text-align: center;
+}
